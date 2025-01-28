@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: register-image-service
+    data:
+        mongodb:
+            #host: ${MONGO_HOST}
+            #port: ${MONGO_PORT}
+            #username: ${MONGO_USER}
+            #password: ${MONGO_PASS}
+            #database: ${MONGO_DB}
+            uri: ${MONGO_URI}
+            #uri: mongodb://${MONGO_USER}:${MONGO_PASS}@${MONGO_HOST}:${MONGO_PORT}/${MONGO_DB}
+server:
+    port: ${APP_PORT}
